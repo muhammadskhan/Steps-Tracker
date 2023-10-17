@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'Steps Calculator' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Steps Calculator
+
+   pod 'Firebase/Analytics'
+   pod 'Firebase/Core'
+   pod 'Firebase/Auth'
+   pod 'FirebaseUI/Auth'
+   pod 'Firebase/Firestore'
+   pod 'Firebase/Storage'
+   pod 'Firebase/Database'
+   pod 'Firebase/DynamicLinks'
+   pod 'FirebaseUI/OAuth'
+   pod 'Firebase/Crashlytics'
+   pod 'Firebase/Messaging'
+   pod 'Firebase/Performance'
+   pod 'KDCircularProgress'
+   pod 'JTAppleCalendar', '7.1'
+   pod 'lottie-ios'
+   pod 'DGCharts'
+   pod 'SDWebImage'
+   pod 'SVProgressHUD'
+   pod 'Google-Mobile-Ads-SDK'
+   pod 'IQKeyboardManagerSwift'
+   pod 'Purchases'
+   
+end

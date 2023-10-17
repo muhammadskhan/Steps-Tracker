@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>874752590568-r847j22rsutkhcisd8139v0iktq6f6v0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.874752590568-r847j22rsutkhcisd8139v0iktq6f6v0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQ75uP-W4t5n9cJzGnXkqBI9csr7NOXOU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>874752590568</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.swamtech.stepstracker</string>
+	<key>PROJECT_ID</key>
+	<string>steps-calculator-6b97c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>steps-calculator-6b97c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:874752590568:ios:b95cc55d2fac96f93abf5d</string>
+	<key>DATABASE_URL</key>
+	<string>https://steps-calculator-6b97c.firebaseio.com</string>
+</dict>
+</plist>

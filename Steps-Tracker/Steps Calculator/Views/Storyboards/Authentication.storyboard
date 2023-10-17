@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="npG-PP-BSU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Medium.ttf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Authentication View Controller-->
+        <scene sceneID="aQQ-1N-6qf">
+            <objects>
+                <viewController id="iBN-73-MxU" customClass="AuthenticationViewController" customModule="Steps_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kgO-Nh-goV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Into the App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vi-3k-dmh">
+                                <rect key="frame" x="133" y="370.5" width="148" height="23.5"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="Zf5-bg-9rH">
+                                <rect key="frame" x="157" y="210.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="8nf-BK-ro1"/>
+                                    <constraint firstAttribute="width" constant="100" id="vce-kF-Kmg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mOR-lJ-7aQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1vi-3k-dmh" firstAttribute="centerX" secondItem="kgO-Nh-goV" secondAttribute="centerX" id="3sY-Mg-BCf"/>
+                            <constraint firstItem="Zf5-bg-9rH" firstAttribute="centerX" secondItem="kgO-Nh-goV" secondAttribute="centerX" id="MVq-VN-QsO"/>
+                            <constraint firstItem="1vi-3k-dmh" firstAttribute="centerY" secondItem="kgO-Nh-goV" secondAttribute="centerY" constant="-66" id="Rcg-yu-tSS"/>
+                            <constraint firstItem="1vi-3k-dmh" firstAttribute="top" secondItem="Zf5-bg-9rH" secondAttribute="bottom" constant="60" id="uRx-2X-2Jt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CPb-p1-Xk2"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cr2-Y5-gPF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1955.072463768116" y="109.82142857142857"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Q9G-ds-aUj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="npG-PP-BSU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RtQ-JU-vHl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iBN-73-MxU" kind="relationship" relationship="rootViewController" id="1zr-FU-MVa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAb-X4-bqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoWhite" width="249" height="249"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

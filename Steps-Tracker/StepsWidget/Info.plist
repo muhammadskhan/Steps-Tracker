@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>StepsWidget</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.widgetkit-extension</string>
+	</dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs to get steps information from HealthKit to display in the dashboard and widget.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs to get steps information from HealthKit to display in the dashboard and widget.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CircularStd-BlackItalic.ttf</string>
+		<string>CircularStd-Bold.ttf</string>
+		<string>CircularStd-BoldItalic.ttf</string>
+		<string>CircularStd-Book.ttf</string>
+		<string>CircularStd-BookItalic.ttf</string>
+		<string>CircularStd-Medium.ttf</string>
+		<string>CircularStd-MediumItalic.ttf</string>
+		<string>CircularStd-Black.ttf</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>
